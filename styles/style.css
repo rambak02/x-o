@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Teko", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: #dbdada;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.header_score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 36px;
+  line-height: 42px;
+  cursor: default;
+}
+.header_best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 36px;
+  line-height: 42px;
+  cursor: default;
+}
+.header_top {
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 48px;
+  line-height: 64px;
+}
+.header_new-game {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 36px;
+  line-height: 64px;
+  cursor: pointer;
+  color: #dbdada;
+  border-style: none;
+  background-color: #333;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.score {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+}
+
+.game_cells {
+  display: grid;
+  grid-template-columns: repeat(3, 25vmin);
+  grid-template-rows: repeat(3, 25vmin);
+  gap: 2vmin;
+  border-radius: 1vmin;
+}
+.game_cell {
+  background-color: #444;
+  border-radius: 1vmin;
+  background-color: #cac5c5;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 30vmin;
+}/*# sourceMappingURL=style.css.map */
